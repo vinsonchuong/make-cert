@@ -1,0 +1,37 @@
+{
+  "name": "make-cert",
+  "version": "0.0.0",
+  "description": "An awesome package",
+  "keywords": [],
+  "homepage": "https://github.com/vinsonchuong/make-cert",
+  "bugs": "https://github.com/vinsonchuong/make-cert/issues",
+  "license": "MIT",
+  "author": "Vinson Chuong <vinsonchuong@gmail.com>",
+  "repository": "vinsonchuong/make-cert",
+  "scripts": {
+    "test": "xo && ava",
+    "release": "semantic-release",
+    "prepack": "build-esm"
+  },
+  "type": "module",
+  "dependencies": {},
+  "devDependencies": {
+    "ava": "^3.9.0",
+    "semantic-release": "^17.1.1",
+    "xo": "^0.32.1"
+  },
+  "ava": {
+    "verbose": true
+  },
+  "xo": {
+    "prettier": true,
+    "space": 2,
+    "semicolon": false,
+    "rules": {
+      "import/extensions": "off",
+      "import/no-anonymous-default-export": "off",
+      "import/no-useless-path-segments": "off",
+      "unicorn/import-index": "off"
+    }
+  }
+}
