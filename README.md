@@ -4,7 +4,7 @@
 [![dependencies Status](https://david-dm.org/vinsonchuong/make-cert/status.svg)](https://david-dm.org/vinsonchuong/make-cert)
 [![devDependencies Status](https://david-dm.org/vinsonchuong/make-cert/dev-status.svg)](https://david-dm.org/vinsonchuong/make-cert?type=dev)
 
-An awesome package
+Quickly generate a self-signed cert to start an HTTPS server
 
 ## Usage
 Install [make-cert](https://yarnpkg.com/en/package/make-cert)
@@ -12,4 +12,20 @@ by running:
 
 ```sh
 yarn add make-cert
+```
+
+To generate a `key.pem` with the private key and `cert.pem` with the
+certificate, both in PEM format, run:
+
+```sh
+yarn make-cert localhost
+```
+
+To use this in your own JavaScript code:
+```js
+import makeCert from 'make-cert'
+
+const {key, cert} = makeCert('localhost')
+console.log(key)
+console.log(cert)
 ```
