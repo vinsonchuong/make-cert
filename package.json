@@ -10,8 +10,7 @@
   "repository": "vinsonchuong/make-cert",
   "scripts": {
     "test": "xo && ava",
-    "release": "semantic-release",
-    "prepack": "build-esm"
+    "release": "semantic-release"
   },
   "type": "module",
   "dependencies": {},
