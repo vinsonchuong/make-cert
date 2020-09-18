@@ -21,7 +21,7 @@
     "make-cert": "./make-cert.js"
   },
   "dependencies": {
-    "node-forge": "^0.9.1"
+    "node-forge": "^0.10.0"
   },
   "devDependencies": {
     "ava": "^3.9.0",
