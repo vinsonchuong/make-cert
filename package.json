@@ -24,11 +24,11 @@
     "node-forge": "^0.10.0"
   },
   "devDependencies": {
-    "ava": "^3.9.0",
-    "got": "^11.4.0",
-    "semantic-release": "^17.1.1",
-    "tempy": "^0.5.0",
-    "xo": "^0.32.1"
+    "ava": "^3.13.0",
+    "got": "^11.8.0",
+    "semantic-release": "^17.2.2",
+    "tempy": "^1.0.0",
+    "xo": "^0.34.2"
   },
   "ava": {
     "verbose": true,
