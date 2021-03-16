@@ -1,7 +1,7 @@
 #!/usr/bin/env node
-import fs from 'fs'
-import path from 'path'
-import makeCert from './index.js'
+const fs = require('fs')
+const path = require('path')
+const makeCert = require('./index.js')
 
 const hostName = process.argv[2]
 if (hostName) {

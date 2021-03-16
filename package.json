@@ -16,7 +16,6 @@
     "test": "xo && ava",
     "release": "semantic-release"
   },
-  "type": "module",
   "bin": {
     "make-cert": "./make-cert.js"
   },

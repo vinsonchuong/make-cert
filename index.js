@@ -1,6 +1,6 @@
-import forge from 'node-forge'
+const forge = require('node-forge')
 
-export default function (hostName) {
+module.exports = function (hostName) {
   const keys = forge.pki.rsa.generateKeyPair(2048)
 
   const cert = forge.pki.createCertificate()
